@@ -7,6 +7,9 @@ A game by :Hadi Yaghinlou
 *usage :*
 please open the snake.html file in a browser
 
+you can visit this page on Github
+[https://yaghinloo.github.io/snake/snake.html](https://yaghinloo.github.io/snake/snake.html)
+
 you can adjust the block size , speed of the motion and the scale of the game.
 this game should be working in all browser which are supporting the Canvas tag
 
@@ -25,5 +28,7 @@ in order to run the build
 **Ideas for future :**
 -
 -building a better GUI for the messages.
+
 -adding sound
+
 -adding mobile controls or joystick
