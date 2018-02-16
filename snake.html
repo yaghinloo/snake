@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>snake</title>
+    <link href="css/game.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div id="game">
+    <h1>Snake</h1>
+    <section id="menu" style="display: block">
+        <form id="game-form">
+            speed: <input id="block-speed" type="number" value="180" name="blockspeed">
+            block size: <input id="block-size" type="number" value="25" name="blocksize">
+            Game Scale : <input id="game-scale" type="number" value="20" name="blockscale"><br/>
+            <button type="submit">Start the game</button>
+        </form>
+    </section>
+    <section id="game-play" style="display: none;">
+
+        <canvas id="snake"></canvas>
+        <h2 id="message">Feed the Snake</h2>
+        <div class="score"> Score <span>0</span></div>
+        <p>please use arrow keys to control the snake</p>
+        <br/>
+
+    </section>
+    <i>By Hadi Yaghinlou </i>
+</div>
+<script src="./dist/index.js"></script>
+
+</body>
+</html>

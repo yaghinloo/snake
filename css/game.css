@@ -1,0 +1,25 @@
+canvas {
+    border: solid 10px grey;
+    background: black;
+}
+
+#game {
+    text-align: center;
+
+    margin: 10px auto;
+}
+
+#menu {
+    font-size: 20px;
+}
+
+input {
+    font-size: 15px;
+    max-width: 50px;
+    margin-right: 35px;
+}
+
+button {
+    font-size: 20px;
+    margin: 20px;
+}
